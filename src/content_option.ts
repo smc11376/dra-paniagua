@@ -16,60 +16,70 @@ const introdata = {
 
 const dataabout = {
     title: "Introducción",
-    aboutme: "¡Hola! Soy la Dra. Irene Paniagua Ortiz, finalice mi formación en Madrid como Médico de Familia y Comunitaria. Durante esta etapa tenía claro que quería para mi futuro, por ello obtuvo el título en Medicina Estética y Antienvejecimiento y así desarrollar la parte más artística de la medicina.\n" +
-      "Si tuviera que elegir como describir la medicina\n" +
-      "estética hablaría de prevención v evitar el\n" +
-      "envelecimiento prematuro a traves de tratamientos\n" +
-      "personalizados adaptados a las necesidades\n" +
-      "individuales de cada paciente. Dentro de la estética considero esencial entender el protagonismo que tiene la piel; una textura y tono de piel conservados potencian cualquier tratamiento de antienvejecimiento.",
+    aboutme: "¡Hola! Soy la Dra. Irene Paniagua Ortiz, finalice mi formación en Madrid como Médico de Familia y Comunitaria. Durante esta etapa tenía claro que quería para mi futuro, por ello obtuve el título en Medicina Estética y Antienvejecimiento y así poder desarrollar la parte más artística de la medicina.\n" +
+      "Si tuviera que elegir como describir la medicina estética hablaría de prevención y evitar el envejecimiento prematuro a través de tratamientos personalizados adaptados a las necesidades individuales de cada paciente. Dentro de la estética considero esencial entender el protagonismo que tiene la piel; una textura y tono de piel conservados potencian cualquier tratamiento de antienvejecimiento.",
+    member: [
+      "Socia del Ilustre Colegio Oficial de Medicos de Madrid (ICOMEM): 282878610",
+      "Socia Asociación de Medicina Estética de Madrid (AMEM), Num. Socio: 195",
+    ]
 };
 const worktimeline = [{
         jobtitle: "Medicina estética",
         where: "Blue Healthcare",
-        date: "2023",
+        date: "Martes 16-20h",
     },
     {
         jobtitle: "Medicina estética",
         where: "Health & Smile",
-        date: "2023",
+        date: "Jueves 16-20h",
     },
 ];
 
 const skills = [{
-        name: "Cirugía Cosmética",
+        name: "Tratamiento de cuidado de la piel",
         value: 90,
     },
     {
-        name: "Neurotoxina",
+        name: "Neuromodulacion-Antiarrugas",
         value: 85,
     },
     {
-        name: "Rejuvenecimiento",
+        name: "Rellenos e inductores de colágeno",
+        value: 80,
+    },
+    {
+        name: "Lasers y peelings",
+        value: 80,
+    },
+    {
+        name: "Personalización de tratamientos",
         value: 80,
     },
 ];
 
-const diseases = [{
-        name: "Envejecimiento facial",
-        value: 90,
-    },
-    {
-        name: "Fotoenvejecimiento",
-        value: 85,
-    },
-];
-
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Microneedling/Dermapen",
+        description: "Procedimiento mediante el cual creamos unas microperforaciones generando un daño controlado que activa a los fibroblastos produciendo la estimulación del colágeno y elastina mejorando así la textura y luminosidad de la piel. Se realiza en consulta en 30 minutos aproximadamente. Duración: 1-2 meses.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Mesoterapia con vitaminas",
+        description: "Procedimiento que consiste en microinyecciones de complejos de vitaminas, aminoácidos y pequeña cantidad de ácido hialurónico para nutrir la piel mejorando la calidad de la misma. Áreas a tratar: facial, cervical o escote. Se realiza en consulta en 20-30 minutos; se recomiendan varias sesiones espaciándolas posteriormente de mantenimiento. Duración: 3-6 meses.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Hidratación profunda (skinbooster)",
+        description: "Procedimiento que consiste en la infiltración de acido hialurónico de baja densidad para aportar una hidratación profunda mejorando la elasticidad de la piel y aportando luminosidad. Se realiza en consulta en una duración de 30 minutos. Duración: 6 meses - 1 año.",
+    },
+    {
+        title: "Antiarrugas en tercio superior",
+        description: "procedimiento para mejorar las arrugas y disminuirlas. Podemos tratar la zona de frente, entrecejo y patas de gallo. Procedimiento indoloro que se realiza en 30 min de consulta y después del cual puedes incorporarte inmediatamente a las actividades diarias siguiendo unas recomendaciones postratamiento. Duración: 4 a 6 meses.",
+    },
+    {
+        title: "Rellenos dérmicos",
+        description: "Tras valoración en consultas se decide el abordaje con rellenos dérmicos. Diseño de labios, pómulos, mentón, marcaje mandibular.. Se realiza en consulta con una duración aproximada de 30-45 minutos. Duración: aprox. 1 año.",
+    },
+    {
+        title: "Peeling químico",
+        description: "Aplicación de una sustancia química sobre la piel con el objetivo de generar una descamación del estrato epidérmico e inducir un remodelado de la piel para mejorar la textura de la misma. El tratamiento se realiza en consulta con una duración de 30-45 minutos. Tras el tratamiento se genera una descamación o exfoliación en la primera semana que dependiendo de la profundidad del mismo puede requerir de reposo relativo y protección solar. Duración: 1 año.",
     },
 ];
 
@@ -162,5 +172,4 @@ export {
     contactConfig,
     socialprofils,
     logotext,
-    diseases,
 };
