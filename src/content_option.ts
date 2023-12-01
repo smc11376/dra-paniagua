@@ -1,59 +1,60 @@
-const logotext = "DRA. PANIAGUA";
+const logotext = "DRA. IRENE PANIAGUA ORTIZ";
 const meta = {
     title: "Dra. Irene Paniagua Ortiz",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    description: "Soy la Dra. Irene Paniagua Ortiz, médica de familia y estética.",
 };
 
 const introdata = {
-    title: "I’m Irene Paniagua Ortiz",
+    title: "Soy Irene Paniagua Ortiz",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Medicina de familia",
+        second: "Medicina estética",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Beauty, cosmetic & personal care.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Introducción",
+    aboutme: "¡Hola! Soy la Dra. Irene Paniagua Ortiz, finalice mi formación en Madrid como Médico de Familia y Comunitaria. Durante esta etapa tenía claro que quería para mi futuro, por ello obtuvo el título en Medicina Estética y Antienvejecimiento y así desarrollar la parte más artística de la medicina.\n" +
+      "Si tuviera que elegir como describir la medicina\n" +
+      "estética hablaría de prevención v evitar el\n" +
+      "envelecimiento prematuro a traves de tratamientos\n" +
+      "personalizados adaptados a las necesidades\n" +
+      "individuales de cada paciente. Dentro de la estética considero esencial entender el protagonismo que tiene la piel; una textura y tono de piel conservados potencian cualquier tratamiento de antienvejecimiento.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Medicina estética",
+        where: "Blue Healthcare",
+        date: "2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Medicina estética",
+        where: "Health & Smile",
+        date: "2023",
     },
 ];
 
 const skills = [{
-        name: "Python",
+        name: "Cirugía Cosmética",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "Neurotoxina",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "Rejuvenecimiento",
         value: 80,
     },
-    {
-        name: "React",
-        value: 60,
+];
+
+const diseases = [{
+        name: "Envejecimiento facial",
+        value: 90,
     },
     {
-        name: "Jquery",
+        name: "Fotoenvejecimiento",
         value: 85,
     },
 ];
@@ -147,11 +148,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
     instagram: "https://www.instagram.com/dra.irenepaniagua/"
 };
+
 export {
     meta,
     dataabout,
@@ -163,4 +162,5 @@ export {
     contactConfig,
     socialprofils,
     logotext,
+    diseases,
 };

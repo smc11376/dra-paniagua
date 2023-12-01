@@ -27,6 +27,10 @@ export default function App() {
           outerAlpha={0.4}
           innerScale={0.7}
           outerScale={5}
+          outerStyle={undefined}
+          innerStyle={undefined}
+          trailingSpeed={undefined}
+          clickables={undefined}
         />
       </div>
       <ScrollToTop>

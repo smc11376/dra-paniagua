@@ -1,4 +1,4 @@
-import {dataabout, meta, services, skills, worktimeline,} from "@/content_option";
+import {dataabout, diseases, meta, services, skills, worktimeline,} from "@/content_option";
 import {Col, Container, Row} from "react-bootstrap";
 import {Helmet, HelmetProvider} from "react-helmet-async";
 import "./style.css";
@@ -30,7 +30,7 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4">Horarios</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
@@ -50,10 +50,34 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Skills</h3>
+            <h3 className="color_sec py-4">Especialista en:</h3>
           </Col>
           <Col lg="7">
             {skills.map((data, i) => {
+              return (
+                <div key={i}>
+                  <h3 className="progress-title">{data.name}</h3>
+                  <div className="progress">
+                    <div
+                      className="progress-bar"
+                      style={{
+                        width: `${data.value}%`,
+                      }}
+                    >
+                      <div className="progress-value">{data.value}%</div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </Col>
+        </Row>
+        <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Enfermedades tratadas:</h3>
+          </Col>
+          <Col lg="7">
+            {diseases.map((data, i) => {
               return (
                 <div key={i}>
                   <h3 className="progress-title">{data.name}</h3>

@@ -1,5 +1,5 @@
 import {socialprofils} from "@/content_option";
-import {FaFacebookF, FaInstagram, FaLinkedin, FaTwitter} from "react-icons/fa";
+import {FaInstagram,} from "react-icons/fa";
 import "./style.css";
 
 export const Socialicons = (_params: any) => {
@@ -13,29 +13,8 @@ export const Socialicons = (_params: any) => {
             </a>
           </li>
         )}
-        {socialprofils.twitter && (
-          <li>
-            <a href={socialprofils.twitter} target="_blank">
-              <FaTwitter />
-            </a>
-          </li>
-        )}
-        {socialprofils.facebook && (
-          <li>
-            <a href={socialprofils.facebook} target="_blank">
-              <FaFacebookF />
-            </a>
-          </li>
-        )}
-        {socialprofils.linkedin && (
-          <li>
-            <a href={socialprofils.linkedin} target="_blank">
-              <FaLinkedin />
-            </a>
-          </li>
-        )}
       </ul>
-      <p>Follow Me</p>
+      <p>Sígueme</p>
     </div>
   );
 };
