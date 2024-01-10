@@ -7,8 +7,8 @@ const meta = {
 const introdata = {
     title: "Soy Irene Paniagua Ortiz",
     animated: {
-        first: "Medicina de familia",
-        second: "Medicina estética",
+        first: "Medicina estética",
+        second: "Fotoenvejecimiento",
     },
     description: "Beauty, cosmetic & personal care.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
@@ -25,12 +25,12 @@ const dataabout = {
 };
 const worktimeline = [{
         jobtitle: "Medicina estética",
-        where: "Blue Healthcare",
+        where: "Health & Smile",
         date: "Martes 16-20h",
     },
     {
         jobtitle: "Medicina estética",
-        where: "Health & Smile",
+        where: "Blue Healthcare",
         date: "Jueves 16-20h",
     },
 ];
