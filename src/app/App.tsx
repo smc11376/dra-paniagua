@@ -1,5 +1,4 @@
-import Headermain from "@/header";
-import AnimatedCursor from "@/hooks/AnimatedCursor";
+import HeaderMain from "@/header";
 import withRouter from "@/hooks/withRouter";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {PropsWithChildren, useEffect} from "react";
@@ -19,22 +18,8 @@ const ScrollToTop = withRouter(_ScrollToTop);
 export default function App() {
   return (
     <Router>
-      <div className="cursor__dot">
-        <AnimatedCursor
-          innerSize={15}
-          outerSize={15}
-          color="255, 255 ,255"
-          outerAlpha={0.4}
-          innerScale={0.7}
-          outerScale={5}
-          outerStyle={undefined}
-          innerStyle={undefined}
-          trailingSpeed={undefined}
-          clickables={undefined}
-        />
-      </div>
       <ScrollToTop>
-        <Headermain />
+        <HeaderMain />
         <AppRoutes />
       </ScrollToTop>
     </Router>
