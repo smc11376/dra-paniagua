@@ -3,7 +3,7 @@ import {Helmet, HelmetProvider} from "react-helmet-async";
 import {Link} from "react-router-dom";
 import Typewriter from "typewriter-effect";
 import "./style.css";
-import ImgEscritorio from './escritorio.jpg'
+import HomeCarousel from "@/pages/home/carousel";
 
 export const Home = () => {
   return (
@@ -15,9 +15,7 @@ export const Home = () => {
           <meta name="description" content={meta.description} />
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center">
-          <div className="h_bg-image order-1 order-lg-2 h-100">
-            <img src={ImgEscritorio} alt="Main" />
-          </div>
+          <HomeCarousel />
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
               <div className="intro mx-auto">

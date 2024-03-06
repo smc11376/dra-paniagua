@@ -16,14 +16,13 @@ const HeaderMain = () => {
     <>
       <header className="fixed-top site__header">
         <div className="d-flex align-items-center justify-content-between">
-          <Link  className="navbar-brand nav_ac" to="/">
+          <Link className="navbar-brand nav_ac bg-transparent" to="/">
             {logotext}
           </Link>
           <div className="d-flex align-items-center">
-          <button className="menu__button  nav_ac" onClick={handleToggle}>
-            {!isActive ? <VscClose /> : <VscGrabber />}
-          </button>
-
+            <button className="menu__button  nav_ac bg-transparent" onClick={handleToggle}>
+              {!isActive ? <VscClose /> : <VscGrabber />}
+            </button>
           </div>
         </div>
 
